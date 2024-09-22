@@ -2,8 +2,8 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import './Skills.css'; 
-import { FaPython, FaJava, FaJs, FaDatabase, FaGithub, FaPaintBrush, FaMicrochip } from 'react-icons/fa';
-import { SiCsharp, SiMysql, SiFirebase, SiArduino } from 'react-icons/si';
+import { FaPython, FaJava, FaJs, FaGithub, FaPaintBrush, FaMicrochip, FaReact, FaUnity, FaNodeJs } from 'react-icons/fa';
+import { SiCsharp, SiMysql, SiFirebase, SiArduino, SiBlender, SiVisualstudio, SiAndroidstudio, SiNetlify, SiFlask, SiDjango, SiBootstrap, SiJetbrains } from 'react-icons/si';
 
 const Skills = () => {
   return (
@@ -11,8 +11,8 @@ const Skills = () => {
       <Container>
         <h2 className="section-title">Skills</h2>
         <Row className="justify-content-center">
-          <Col md={6} lg={4} className="mb-4 d-flex align-items-stretch"> {/* Ensure cards are same height */}
-            <Card className="skill-card text-center"> {/* Add text-center for centering content */}
+          <Col md={6} lg={4} className="mb-4 d-flex align-items-stretch">
+            <Card className="skill-card text-center">
               <Card.Body>
                 <h4>Programming Languages</h4>
                 <ul className="skills-list">
@@ -20,6 +20,34 @@ const Skills = () => {
                   <li><FaJava /> Java</li>
                   <li><FaJs /> JavaScript</li>
                   <li><SiCsharp /> C#</li>
+                </ul>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={6} lg={4} className="mb-4 d-flex align-items-stretch">
+            <Card className="skill-card text-center">
+              <Card.Body>
+                <h4>Tools</h4>
+                <ul className="skills-list">
+                  <li><SiVisualstudio /> Visual Studio</li>
+                  <li><SiAndroidstudio /> Android Studio</li>
+                  <li><FaUnity /> Unity3D</li>
+                  <li><SiBlender /> Blender3D</li>
+                  <li><SiJetbrains /> JetBrains IDE's</li>
+                </ul>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={6} lg={4} className="mb-4 d-flex align-items-stretch">
+            <Card className="skill-card text-center">
+              <Card.Body>
+                <h4>Frameworks</h4>
+                <ul className="skills-list">
+                  <li><FaReact /> ReactJS</li>
+                  <li><SiNetlify /> .Net Framework</li>
+                  <li><SiDjango /> Django</li>
+                  <li><SiFlask /> Flask</li>
+                  <li><SiBootstrap /> Bootstrap</li>
                 </ul>
               </Card.Body>
             </Card>

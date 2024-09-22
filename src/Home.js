@@ -18,13 +18,13 @@ const Home = () => {
             <p>I'm a <span className="highlight">Software Developer</span></p>
          
             <div className="social-icons mt-4">
-              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/christianserwelas/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin size={30} />
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/tozen123" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={30} />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/serwekun/" target="_blank" rel="noopener noreferrer">
                 <FaInstagram size={30} />
               </a>
             </div>
