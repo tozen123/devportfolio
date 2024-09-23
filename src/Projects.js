@@ -33,7 +33,7 @@ const projects = [
     },
     {
       title: 'CNSC Supply And Equipement Management System',
-      image: kingsguardImage,
+      image: '',
       description: 'A commissioned desktop application developed using .Net Framework and MySQL Database for Capstone Project.',
       date: 'July 2023',
       tools: [''], 
@@ -41,7 +41,7 @@ const projects = [
     },
     {
       title: 'AquaGuard: Fishpond pH,Ammonia Monitoring Automatic Filtration And Ultrasonic Anti-Theft With Mobile Application',
-      image: kingsguardImage,
+      image: '',
       description: 'A commissioned internet-of-things project integrating sensors for real-time monitoring and controlwith a mobile application for Student Final Project.',
       date: 'May 2024',
       tools: [''], 
@@ -49,7 +49,7 @@ const projects = [
     },
     {
       title: 'PreDePest',
-      image: kingsguardImage,
+      image: '',
       description: 'A commissioned project that utilizes YOLOv8 Object Detection to identify pests in rice fields, storing data in Firebase for data storage and analysis. The application aims to determine the different kind of pest present in the Philippines in accordance with weather and time.',
       date: 'December 2023 - April 2024',
       tools: [''], 
